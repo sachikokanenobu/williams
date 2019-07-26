@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 100%;
+}
+
 header {
 	align-content: center;
 	justify-content: space-around;
@@ -28,65 +33,85 @@ nav {
 	justify-content: center;
   	align-items: center;
 	width: 100%;
+	background-color: #d8e5f0;
 }
 
 .ul {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	background-color: #d8e5f0;
 }
 
 .li {  
 	flex: 0 1 auto;
 	list-style-type: none;
-	padding: 1vh 5vw 2vh;
+	padding: 2vh 3vw 1.5vh;
+	background-color: #d8e5f0;
 }
 
 .li a {
-  /*color: #152137;*/
+	background-color: #d8e5f0;
 }
 
 .li a:hover {
   color: #6994c6;
+	background-color: #d8e5f0;
 }
 
-@media screen and (max-width: 700px) {
-  .nav {
+@media screen and (max-width: 600px) {
+  .ul {
     float: none;
     display: block;
     text-align: center;
   }
 }
 
+.qs {
+	text-align: center;
+	justify-content: center;
+	padding: 0 10vw
+}
+
 footer {
-  background-color: #777;
-  text-align: center;
-  color: white;
+	text-align: center;
+	color: white;
+	background-color: #d8e5f0;
 }
 
 h1 {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
 	font-size: 2.5em;
 	color: #152137;
 	border: medium solid #6994c6;
+	background-color: #d8e5f0;
 }
 
 h2 {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 1.5em;
 	color: #152137;
-	padding: 2vh 0vh 0vh;
+	padding: 1.5vh 0vh 0vh;
 }
 
 h3 {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 1.5em;
+	background-color: #d8e5f0;
 }
 
 h4 {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 1.5em;
 	font-style: italic;
+	background-color: #d8e5f0;
+}
+
+p {
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+i {
+	font-size: 1.3em;
+	background-color: #d8e5f0;
 }
 
 hr {
@@ -96,8 +121,19 @@ hr {
 
 img {
 	align-content: center;
-	max-height: 75vh;
+	justify-content: center;
+	max-height: 73vh;
 	width: auto;
+}
+
+a h1:hover {
+	color: #6994c6;
+	border-color: #152137;
+}
+
+h2 a {
+	color: #152137;
+	font-size: inherit;
 }
 
 a:link {
