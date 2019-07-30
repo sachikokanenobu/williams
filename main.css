@@ -134,7 +134,9 @@ img {
 	align-content: center;
 	justify-content: center;
 	max-height: 73vh;
+	max-width: 95vw;
 	width: auto;
+	margin: 0 5vw;
 }
 
 a h1:hover {
